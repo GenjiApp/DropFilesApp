@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B682E97217C9DF2F0049C1C1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B682E97117C9DF2F0049C1C1 /* Cocoa.framework */; };
+		B682E97C17C9DF2F0049C1C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B682E97A17C9DF2F0049C1C1 /* InfoPlist.strings */; };
+		B682E97E17C9DF2F0049C1C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B682E97D17C9DF2F0049C1C1 /* main.m */; };
+		B682E98217C9DF2F0049C1C1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B682E98017C9DF2F0049C1C1 /* Credits.rtf */; };
+		B682E98517C9DF2F0049C1C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B682E98417C9DF2F0049C1C1 /* AppDelegate.m */; };
+		B682E98817C9DF300049C1C1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B682E98617C9DF300049C1C1 /* MainMenu.xib */; };
+		B682E99517C9E1EB0049C1C1 /* DropView.m in Sources */ = {isa = PBXBuildFile; fileRef = B682E99417C9E1EB0049C1C1 /* DropView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B682E96E17C9DF2F0049C1C1 /* DropFilesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropFilesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B682E97117C9DF2F0049C1C1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B682E97417C9DF2F0049C1C1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B682E97517C9DF2F0049C1C1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B682E97617C9DF2F0049C1C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B682E97917C9DF2F0049C1C1 /* DropFilesApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DropFilesApp-Info.plist"; sourceTree = "<group>"; };
+		B682E97B17C9DF2F0049C1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B682E97D17C9DF2F0049C1C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B682E97F17C9DF2F0049C1C1 /* DropFilesApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DropFilesApp-Prefix.pch"; sourceTree = "<group>"; };
+		B682E98117C9DF2F0049C1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B682E98317C9DF2F0049C1C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B682E98417C9DF2F0049C1C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B682E98717C9DF300049C1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B682E99317C9E1EA0049C1C1 /* DropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropView.h; sourceTree = "<group>"; };
+		B682E99417C9E1EB0049C1C1 /* DropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B682E96B17C9DF2F0049C1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B682E97217C9DF2F0049C1C1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B682E96517C9DF2F0049C1C1 = {
+			isa = PBXGroup;
+			children = (
+				B682E97717C9DF2F0049C1C1 /* DropFilesApp */,
+				B682E97017C9DF2F0049C1C1 /* Frameworks */,
+				B682E96F17C9DF2F0049C1C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B682E96F17C9DF2F0049C1C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B682E96E17C9DF2F0049C1C1 /* DropFilesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B682E97017C9DF2F0049C1C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B682E97117C9DF2F0049C1C1 /* Cocoa.framework */,
+				B682E97317C9DF2F0049C1C1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B682E97317C9DF2F0049C1C1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B682E97417C9DF2F0049C1C1 /* AppKit.framework */,
+				B682E97517C9DF2F0049C1C1 /* CoreData.framework */,
+				B682E97617C9DF2F0049C1C1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B682E97717C9DF2F0049C1C1 /* DropFilesApp */ = {
+			isa = PBXGroup;
+			children = (
+				B682E98317C9DF2F0049C1C1 /* AppDelegate.h */,
+				B682E98417C9DF2F0049C1C1 /* AppDelegate.m */,
+				B682E99317C9E1EA0049C1C1 /* DropView.h */,
+				B682E99417C9E1EB0049C1C1 /* DropView.m */,
+				B682E98617C9DF300049C1C1 /* MainMenu.xib */,
+				B682E97817C9DF2F0049C1C1 /* Supporting Files */,
+			);
+			path = DropFilesApp;
+			sourceTree = "<group>";
+		};
+		B682E97817C9DF2F0049C1C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B682E97917C9DF2F0049C1C1 /* DropFilesApp-Info.plist */,
+				B682E97A17C9DF2F0049C1C1 /* InfoPlist.strings */,
+				B682E97D17C9DF2F0049C1C1 /* main.m */,
+				B682E97F17C9DF2F0049C1C1 /* DropFilesApp-Prefix.pch */,
+				B682E98017C9DF2F0049C1C1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B682E96D17C9DF2F0049C1C1 /* DropFilesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B682E98B17C9DF300049C1C1 /* Build configuration list for PBXNativeTarget "DropFilesApp" */;
+			buildPhases = (
+				B682E96A17C9DF2F0049C1C1 /* Sources */,
+				B682E96B17C9DF2F0049C1C1 /* Frameworks */,
+				B682E96C17C9DF2F0049C1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropFilesApp;
+			productName = DropFilesApp;
+			productReference = B682E96E17C9DF2F0049C1C1 /* DropFilesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B682E96617C9DF2F0049C1C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Genji App";
+			};
+			buildConfigurationList = B682E96917C9DF2F0049C1C1 /* Build configuration list for PBXProject "DropFilesApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B682E96517C9DF2F0049C1C1;
+			productRefGroup = B682E96F17C9DF2F0049C1C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B682E96D17C9DF2F0049C1C1 /* DropFilesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B682E96C17C9DF2F0049C1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B682E97C17C9DF2F0049C1C1 /* InfoPlist.strings in Resources */,
+				B682E98217C9DF2F0049C1C1 /* Credits.rtf in Resources */,
+				B682E98817C9DF300049C1C1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B682E96A17C9DF2F0049C1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B682E97E17C9DF2F0049C1C1 /* main.m in Sources */,
+				B682E98517C9DF2F0049C1C1 /* AppDelegate.m in Sources */,
+				B682E99517C9E1EB0049C1C1 /* DropView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B682E97A17C9DF2F0049C1C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B682E97B17C9DF2F0049C1C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B682E98017C9DF2F0049C1C1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B682E98117C9DF2F0049C1C1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B682E98617C9DF300049C1C1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B682E98717C9DF300049C1C1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B682E98917C9DF300049C1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		B682E98A17C9DF300049C1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		B682E98C17C9DF300049C1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropFilesApp/DropFilesApp-Prefix.pch";
+				INFOPLIST_FILE = "DropFilesApp/DropFilesApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B682E98D17C9DF300049C1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropFilesApp/DropFilesApp-Prefix.pch";
+				INFOPLIST_FILE = "DropFilesApp/DropFilesApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B682E96917C9DF2F0049C1C1 /* Build configuration list for PBXProject "DropFilesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B682E98917C9DF300049C1C1 /* Debug */,
+				B682E98A17C9DF300049C1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B682E98B17C9DF300049C1C1 /* Build configuration list for PBXNativeTarget "DropFilesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B682E98C17C9DF300049C1C1 /* Debug */,
+				B682E98D17C9DF300049C1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B682E96617C9DF2F0049C1C1 /* Project object */;
+}
